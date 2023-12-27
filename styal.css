@@ -1,0 +1,234 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=Courgette&family=Luxurious+Script&family=Pushster&display=swap");
+
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.word span {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  /* transform-origin: 50% 50%; */
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  letter-spacing: 0.2cm;
+  text-align: center;
+  color: #ffdf00;
+  font-size: 7rem;
+  font-family: "pushster","Arial", "Helvetica", "sans-serif";
+}
+
+
+
+body.my{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx2Y35D94j_-lOau7rDXH4WncRXx-g9i1jZQ&usqp=CAU");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ 
+  -webkit-box-align: center;
+ 
+      -ms-flex-align: center;
+ 
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+ 
+  margin: 0;
+
+}
+
+.p{
+  color: #07e2ff;
+  margin-left: 50rem;
+  margin-top: 3rem;
+ font-style: italic;
+ font-size: 18px;
+ font-family: 'Times New Roman', Times, serif;
+ 
+
+
+}
+h1 {
+  font-weight: normal;
+  font-size: 60px;
+  margin: 50px 40px;
+  -webkit-animation:new year 3s infinite;
+          animation:new year 3s infinite;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@-webkit-keyframes newYearText {
+  0% {
+    color: rgb(7, 45, 214);
+  }
+  25% {
+    color: dodgerblue;
+  }
+  75% {
+    color: violet;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: crimson;
+  }
+}
+
+@keyframes newYearText {
+  0% {
+    color: rgb(7, 45, 214);
+  }
+  25% {
+    color: dodgerblue;
+  }
+  75% {
+    color: violet;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: crimson;
+  }
+}
+
+
+.countdown {
+
+  margin-bottom: 50rem;
+  margin-top: -12rem;
+  margin-left: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  background-color: #000000;
+  color: #00ffff;
+  opacity: .7;
+}
+
+.time {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(14, 2, 82, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(14, 2, 82, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+ 
+  
+  
+}
+
+.time h2 {
+  color: #2d00f5,#695759;
+  text-shadow: 2px 2px 4px #a87272;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1;
+  margin: 0 0 5px;
+}
+#my {
+  color: #c40018;
+ 
+}
+
+.text {
+  -webkit-box-shadow: 5px 5px 3px rgb(143, 143, 143);
+          box-shadow: 5px 5px 3px rgb(143, 143, 143);
+  padding: 0.5rem;
+  color: rgb(255, 217, 0);
+  font-weight: 560;
+  border-radius: 5px;
+}
+
+h3 {
+  font-family: "The Nautigal", cursive;
+  font-size: 50px;
+  width: 22ch;
+  -webkit-animation: typing 2s steps(22);
+          animation: typing 2s steps(22);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 5px;
+    padding: 0.1rem;
+    
+    
+  }
+  .time h2 {
+    font-size: 12px;
+  }
+  .text {
+    font-size: 10px;
+    -webkit-box-shadow: 5px 5px 3px rgb(143, 143, 143);
+            box-shadow: 5px 5px 3px rgb(143, 143, 143);
+    padding: 0.1rem;
+    border-radius: 1px;
+  }
+  h3 {
+    font-size: 25px;
+    width: 20ch;
+    -webkit-animation: typing 1s steps(12);
+            animation: typing 1s steps(12);
+  }
+}
